@@ -1,22 +1,25 @@
-header{
+header {
     background-color: #BBBBBB;
     padding: 20px 0;
 }
 
 .caja{
+    width: 940px;
     position: relative;
     margin: 0 auto;
-    width: 940px;
 }
+
 nav{
     position: absolute;
-    top: 110px;
+    top:110px;
     right: 0;
 }
+
 nav li{
     display: inline;
     margin: 0 0 0 15px;
 }
+
 nav a{
     text-transform: uppercase;
     color: #000000;
@@ -25,35 +28,36 @@ nav a{
     text-decoration: none;
 }
 
-nav a: hover{
+nav a:hover{
     color: #c78c19;
-    text-decotarion: underline;
+    text-decoration: underline;
 }
 
 .productos{
     width: 940px;
-    margin: o auto;
+    margin: 0 auto;
     padding: 50px;
 }
+
 
 .productos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: o 1.5%;
+    margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
 }
 
-.productos li: over{
-    border-color: #c78c19;
+.productos li:hover{
+    border-color:#c78c19;
 }
 
-.productos li: active{ 
-    border-color: #088c19;
+.productos li:active{
+    border-color:#088c19;
 }
 
 .productos h2{
@@ -61,7 +65,7 @@ nav a: hover{
     font-weight: bold;
 }
 
-.productos li: h2{
+.productos li:hover h2{
     font-size: 33px;
 }
 
@@ -72,39 +76,43 @@ nav a: hover{
 .producto-precio{
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top:10px;
 }
 
 footer{
     text-align: center;
-    background: url(imagen del pie de pagina fondo negro);
-    padding: 40px;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
 }
 
 .copyright{
-    color: #ffffff;
+    color:#FFFFFF;
     font-size: 13px;
-    margin: 20px;
+    margin:20px;
 }
 
 main{
     width: 940px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 form{
     margin: 40px 0;
 }
 
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input{
+.input-padron{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
 }
